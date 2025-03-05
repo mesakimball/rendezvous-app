@@ -4,6 +4,7 @@ export default function Home() {
       <video
         loop
         autoPlay
+        playsInline
         muted
         class="h-screen w-screen object-cover fixed top-0 left-0 -z-1"
       >
