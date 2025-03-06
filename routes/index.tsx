@@ -1,16 +1,17 @@
+import Footer from "../components/Footer.tsx";
+import Hero from "../components/Hero.tsx";
+import UpcomingDates from "../components/UpcomingDates.tsx";
+import CountDown from "../islands/CountDown.tsx";
+
 export default function Home() {
+  const countDownDate =
+    "Wed Mar 19 2025 19:00:00 GMT-0700 (Mountain Standard Time";
   return (
-    <div class="flex flex-col items-center justify-center h-screen">
-      <video
-        loop
-        autoPlay
-        playsInline
-        muted
-        class="h-screen w-screen object-cover fixed top-0 left-0 -z-1"
-      >
-        <source src="/hero.mp4" type="video/mp4" />
-      </video>
-      <img src="/logo-white.png" class="absolute z-10 p-4" />
-    </div>
+    <main>
+      <Hero />
+      <CountDown endLabel="Registration Start" endDate={countDownDate} />
+      <UpcomingDates />
+      <Footer />
+    </main>
   );
 }
