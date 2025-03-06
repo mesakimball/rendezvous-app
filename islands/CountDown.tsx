@@ -41,7 +41,7 @@ export default function CountDown({ endDate, endLabel }: CountDownProps) {
   }, []);
 
   return (
-    <div class="flex flex-col justify-center py-32 px-8 md:p-32 bg-amber-950 text-white">
+    <div class="flex flex-col justify-center py-32 px-8 md:p-32 bg-lime-950 text-white">
       <h1 class="text-center pb-8 text-3xl">{endLabel}</h1>
       <p class="italic text-center pb-8">
         Stake registration for Rendezvous coming soon!
