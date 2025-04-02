@@ -14,10 +14,10 @@
 ## Registration UI **priority**
 
 - [x] "/register"
-- [ ] Hero w/ title and/or minimal copy about registration
+- [x] Hero w/ title and/or minimal copy about registration
 - [ ] Registration form
 - [ ] Loading state after clicking submit
-- [ ] Scaffold empty API for submission that redirects to "/register/success"
+- [x] Scaffold empty API for submission that redirects to "/register/success"
 - [ ] "/register/success" full-screen page with link back to "/"
 
 ## Registration API **priority**
