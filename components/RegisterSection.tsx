@@ -15,13 +15,13 @@ export default function RegisterSection() {
           </p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <a
-              href="#"
+              href="/register"
               class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-lime-700 rounded-lg hover:bg-lime-800 focus:ring-4 focus:ring-lime-900"
             >
               Register
             </a>
             <a
-              href="#"
+              href="/my-role"
               class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
               <svg
