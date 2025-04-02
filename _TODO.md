@@ -1,19 +1,19 @@
 ## Mountain of the Lord blurb
 
 - [ ] Get copy from President Hyatt
-- [ ] Get UI from Flowbyte, Daisy, or Wind
+- [x] Get UI from Flowbyte, Daisy, or Wind
 
 ## Registration CTA **priority**
 
 - [ ] Create copy about registration, summary of what it entails, and who does
       it
-- [ ] Get UI from Flowbyte, Daisy, or Wind
-- [ ] Scaffold links with "under construction" pages for /registration and
+- [x] Get UI from Flowbyte, Daisy, or Wind
+- [x] Scaffold links with "under construction" pages for /registration and
       /my-role
 
 ## Registration UI **priority**
 
-- [ ] "/register"
+- [x] "/register"
 - [ ] Hero w/ title and/or minimal copy about registration
 - [ ] Registration form
 - [ ] Loading state after clicking submit
@@ -22,7 +22,6 @@
 
 ## Registration API **priority**
 
-- # TECHDEBT comment to add validation at some point
 - [ ] Init Neon DB
 - [ ] Registration schema
 - [ ] Save form data to DB
