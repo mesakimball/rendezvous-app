@@ -96,7 +96,7 @@ export default function FAQSection() {
               <a
                 href="/faq"
                 title=""
-                class="inline-flex items-center text-lg font-medium text-primary-600 hover:underline"
+                class="inline-flex items-center text-lg font-medium text-lime-700 hover:text-green-800 hover:underline"
               >
                 Read more FAQ
                 <svg

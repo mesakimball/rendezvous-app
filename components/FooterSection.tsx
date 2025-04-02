@@ -71,7 +71,7 @@ export default function FooterSection() {
             </div>
           </div>
         </div>
-        <hr class="my-6 sm:mx-auto border-green-700 lg:my-8" />
+        <hr class="my-6 sm:mx-auto border-lime-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm sm:text-center text-gray-300">
             For support contact{" "}
