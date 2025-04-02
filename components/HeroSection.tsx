@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function HeroSection() {
   return (
     <div class="flex flex-col items-center justify-center h-screen">
       <video
@@ -11,6 +11,8 @@ export default function Hero() {
         <source src="/hero.mp4" type="video/mp4" />
       </video>
       <img src="/logo-white.png" class="absolute z-10 p-4" />
+      <h1>Mountain Of The Lord</h1>
+      <h2>Oct 6 - 10, 2025</h2>
     </div>
   );
 }

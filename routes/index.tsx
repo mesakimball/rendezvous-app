@@ -1,17 +1,21 @@
-import Footer from "../components/Footer.tsx";
-import Hero from "../components/Hero.tsx";
-import UpcomingDates from "../components/UpcomingDates.tsx";
-import CountDown from "../islands/CountDown.tsx";
+import BlurbSection from "../components/BlurbSection.tsx";
+import CampRaymondSection from "../components/CampRaymondSection.tsx";
+import EventsSection from "../components/EventsSection.tsx";
+import FAQSection from "../components/FAQSection.tsx";
+import FooterSection from "../components/FooterSection.tsx";
+import HeroSection from "../components/HeroSection.tsx";
+import RegisterSection from "../components/RegisterSection.tsx";
 
 export default function Home() {
-  const countDownDate =
-    "Wed Mar 19 2025 19:00:00 GMT-0700 (Mountain Standard Time";
   return (
     <main>
-      <Hero />
-      <CountDown endLabel="Registration Start" endDate={countDownDate} />
-      <UpcomingDates />
-      <Footer />
+      <HeroSection />
+      <BlurbSection />
+      <RegisterSection />
+      <CampRaymondSection />
+      <EventsSection />
+      <FAQSection />
+      <FooterSection />
     </main>
   );
 }
