@@ -14,7 +14,7 @@ export default function CampRaymondSection() {
             </p>
             <a
               href="#"
-              class="inline-flex items-center font-medium text-lime-600 hover:text-green-700"
+              class="inline-flex items-center font-medium text-sky-400 hover:text-green-700"
             >
               Learn more
               <svg

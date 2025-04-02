@@ -20,7 +20,7 @@ export default function MyRolePage() {
         </p>
         <a
           href="/"
-          class="inline-flex text-white bg-lime-600 hover:bg-lime-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-lime-800 my-4"
+          class="inline-flex text-white bg-sky-400 hover:bg-sky-500 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-sky-600 my-4"
         >
           Back to Homepage
         </a>

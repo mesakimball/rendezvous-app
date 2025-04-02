@@ -7,7 +7,7 @@ export default function BlurbSection() {
       </div>
       <div class="mx-auto max-w-2xl lg:max-w-4xl">
         <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
-          <h1 class="text-3xl mb-4 text-lime-600 font-extrabold">
+          <h1 class="text-3xl mb-4 text-sky-400 font-extrabold">
             Why we don't call it "Mountain Man"
           </h1>
           <p>
