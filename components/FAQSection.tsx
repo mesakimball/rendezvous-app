@@ -72,7 +72,7 @@ export default function FAQSection() {
                 Do they still wear capotes?
               </h3>
               <p class="text-gray-500">
-                Leadership at Rendezvous will neither endorse nor discourage the
+                Leadership at Rendezvous will neither promote nor discourage the
                 adorning of traditional capotes or mountain man garb.
               </p>
             </div>
