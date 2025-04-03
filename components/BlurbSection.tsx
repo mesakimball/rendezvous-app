@@ -7,7 +7,9 @@ export default function BlurbSection() {
       </div>
       <div class="mx-auto max-w-2xl lg:max-w-4xl">
         <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
-          <h1 class="text-3xl mb-4">Why don't we call it Mountain Man?</h1>
+          <h1 class="text-3xl mb-4 text-gray-600 font-extrabold">
+            Why we don't call it "Mountain Man"
+          </h1>
           <p>
             This section is going to be quite meaningful. It will explain why we
             call it "Mountain Of The Lord" and not "Mountain Man". After reading

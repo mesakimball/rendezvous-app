@@ -6,22 +6,28 @@ export default function Error404() {
       <Head>
         <title>404 - Page not found</title>
       </Head>
-      <div class="px-4 py-8 mx-auto bg-[#86efac]">
-        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <img
-            class="my-6"
-            src="/logo.svg"
-            width="128"
-            height="128"
-            alt="the Fresh logo: a sliced lemon dripping with juice"
-          />
-          <h1 class="text-4xl font-bold">404 - Page not found</h1>
-          <p class="my-4">
-            The page you were looking for doesn't exist.
-          </p>
-          <a href="/" class="underline">Go back home</a>
+      <section class="bg-white dark:bg-stone-800 h-full flex flex-column items-center">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="mx-auto max-w-screen-sm text-center">
+            <h1 class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-sky-400">
+              404
+            </h1>
+            <p class="mb-4 text-3xl tracking-tight font-bold md:text-4xl text-white">
+              Something's missing.
+            </p>
+            <p class="mb-4 text-lg font-light text-gray-300">
+              Sorry, we can't find that page. You'll find lots to explore on the
+              home page.
+            </p>
+            <a
+              href="/"
+              class="inline-flex text-white bg-sky-400 hover:bg-sky-500 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-sky-600 my-4"
+            >
+              Back to Homepage
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

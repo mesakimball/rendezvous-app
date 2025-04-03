@@ -22,13 +22,11 @@ export default function FAQSection() {
                   >
                   </path>
                 </svg>
-                What do you mean by "Figma assets"?
+                What do the young men eat on Thursday night?
               </h3>
               <p class="text-gray-500">
-                You will have access to download the full Figma project
-                including all of the pages, the components, responsive pages,
-                and also the icons, illustrations, and images included in the
-                screens.
+                A delicious array of cuisine from the most nutritious sources in
+                all of the area round about Raymond.
               </p>
             </div>
 
@@ -47,12 +45,12 @@ export default function FAQSection() {
                   >
                   </path>
                 </svg>
-                What does "lifetime access" exactly mean?
+                What does "atl atl" mean?
               </h3>
               <p class="text-gray-500">
-                Once you have purchased either the design, code, or both
-                packages, you will have access to all of the future updates
-                based on the roadmap, free of charge.
+                Excellent question- an "atl atl" is a type of spear, launched by
+                the thrower with the assistance of a lever shaped throwing tool,
+                hurled at the throwee.
               </p>
             </div>
 
@@ -71,24 +69,11 @@ export default function FAQSection() {
                   >
                   </path>
                 </svg>
-                How does support work?
+                Do they still wear capotes?
               </h3>
               <p class="text-gray-500">
-                We're aware of the importance of well qualified support, that is
-                why we decided that support will only be provided by the authors
-                that actually worked on this project.
-              </p>
-              <p class="text-gray-500">
-                Feel free to{" "}
-                <a
-                  href="#"
-                  class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  contact us
-                </a>{" "}
-                and we'll help you out as soon as we can.
+                Leadership at Rendezvous will neither promote nor discourage the
+                adorning of traditional capotes or mountain man garb.
               </p>
             </div>
 
@@ -96,7 +81,7 @@ export default function FAQSection() {
               <a
                 href="/faq"
                 title=""
-                class="inline-flex items-center text-lg font-medium text-primary-600 hover:underline"
+                class="inline-flex items-center text-lg font-medium text-sky-400 hover:text-sky-500 hover:underline"
               >
                 Read more FAQ
                 <svg

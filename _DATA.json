@@ -1,0 +1,15 @@
+{
+  "registrationType": "teachers | priests | leaders",
+  "userName": "Jimmy Smith",
+  "userEmail": "jimmy@mail.com",
+  "userPhone": "480.123.4567",
+  "clerkName": "Winston Chill",
+  "clerkEmail": "win@mail.com",
+  "clerkPhone": "480.456.7891",
+  "wardName": "chapel hill",
+  "stakeName": "Mesa East",
+  "teachersCount": 15,
+  "priestsCount": 26,
+  "leadersCount": 5,
+  "specialAccomodations": "Please provide Monster Viking Berry."
+}
