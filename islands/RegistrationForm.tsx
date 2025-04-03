@@ -11,9 +11,8 @@ export default function RegistrationForm() {
       <h3 class="mb-2 text-lg font-medium text-gray-900">
         Who are you registering for Rendezvous?
       </h3>
-      <pre>{registrationType}</pre>
       <ul class="grid w-full gap-6 md:grid-cols-2">
-        <li>
+        <li onClick={() => registrationType.value = "teachers"}>
           <input
             type="radio"
             id="teachers"
@@ -22,7 +21,6 @@ export default function RegistrationForm() {
             class="hidden peer"
             required
             checked
-            onClick={() => registrationType.value = "teachers"}
           />
           <label
             for="teachers"
@@ -53,14 +51,13 @@ export default function RegistrationForm() {
             </svg>
           </label>
         </li>
-        <li>
+        <li onClick={() => registrationType.value = "priests"}>
           <input
             type="radio"
             id="priests"
             name="registrationType"
             value="priests"
             class="hidden peer"
-            onClick={() => registrationType.value = "priests"}
           />
           <label
             for="priests"
@@ -91,14 +88,13 @@ export default function RegistrationForm() {
             </svg>
           </label>
         </li>
-        <li>
+        <li onClick={() => registrationType.value = "ward"}>
           <input
             type="radio"
             id="ward"
             name="registrationType"
             value="ward"
             class="hidden peer"
-            onClick={() => registrationType.value = "ward"}
           />
           <label
             for="ward"
@@ -129,14 +125,13 @@ export default function RegistrationForm() {
             </svg>
           </label>
         </li>
-        <li>
+        <li onClick={() => registrationType.value = "stake"}>
           <input
             type="radio"
             id="stake"
             name="registrationType"
             value="stake"
             class="hidden peer"
-            onClick={() => registrationType.value = "stake"}
           />
           <label
             for="stake"
@@ -169,21 +164,23 @@ export default function RegistrationForm() {
       {/* End registration type */}
 
       <div class="grid gap-4 my-4 sm:grid-cols-2 sm:gap-6 sm:my-6">
-        <div class="w-full">
-          <label
-            for="name"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Your Ward
-          </label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
+        {registrationType.value !== "stake" && (
+          <div class="w-full">
+            <label
+              for="name"
+              class="block mb-2 text-lg font-medium text-gray-900"
+            >
+              Your Ward
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+              required
+            />
+          </div>
+        )}
         <div class="w-full">
           <label
             for="name"
@@ -245,98 +242,106 @@ export default function RegistrationForm() {
           />
         </div>
         {/* Start ward clerk block */}
-        <div class="sm:col-span-2">
-          <label
-            for="name"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Ward clerk name
-          </label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
-        <div class="w-full">
-          <label
-            for="brand"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Wark clerk phone number
-          </label>
-          <input
-            type="text"
-            name="brand"
-            id="brand"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
-        <div class="w-full">
-          <label
-            for="price"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Ward clerk email
-          </label>
-          <input
-            type="number"
-            name="price"
-            id="price"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
+        {registrationType.value !== "stake" && (
+          <>
+            <div class="sm:col-span-2">
+              <label
+                for="name"
+                class="block mb-2 text-lg font-medium text-gray-900"
+              >
+                Ward clerk name
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+                required
+              />
+            </div>
+            <div class="w-full">
+              <label
+                for="brand"
+                class="block mb-2 text-lg font-medium text-gray-900"
+              >
+                Wark clerk phone number
+              </label>
+              <input
+                type="text"
+                name="brand"
+                id="brand"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+                required
+              />
+            </div>
+            <div class="w-full">
+              <label
+                for="price"
+                class="block mb-2 text-lg font-medium text-gray-900"
+              >
+                Ward clerk email
+              </label>
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+                required
+              />
+            </div>
+          </>
+        )}
         {/* End ward clerk block */}
         {/* Start stake clerk block */}
-        <div class="sm:col-span-2">
-          <label
-            for="name"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Stake clerk name
-          </label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
-        <div class="w-full">
-          <label
-            for="brand"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Stake clerk phone number
-          </label>
-          <input
-            type="text"
-            name="brand"
-            id="brand"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
-        <div class="w-full">
-          <label
-            for="price"
-            class="block mb-2 text-lg font-medium text-gray-900"
-          >
-            Stake clerk email
-          </label>
-          <input
-            type="number"
-            name="price"
-            id="price"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
-            required
-          />
-        </div>
+        {registrationType.value === "stake" && (
+          <>
+            <div class="sm:col-span-2">
+              <label
+                for="name"
+                class="block mb-2 text-lg font-medium text-gray-900"
+              >
+                Stake clerk name
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+                required
+              />
+            </div>
+            <div class="w-full">
+              <label
+                for="brand"
+                class="block mb-2 text-lg font-medium text-gray-900"
+              >
+                Stake clerk phone number
+              </label>
+              <input
+                type="text"
+                name="brand"
+                id="brand"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+                required
+              />
+            </div>
+            <div class="w-full">
+              <label
+                for="price"
+                class="block mb-2 text-lg font-medium text-gray-900"
+              >
+                Stake clerk email
+              </label>
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
+                required
+              />
+            </div>
+          </>
+        )}
         {/* End stake clerk block */}
         {/* Start count block */}
         <div class="w-full">
