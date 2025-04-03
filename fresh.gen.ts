@@ -9,7 +9,7 @@ import * as $faq from "./routes/faq.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $my_role from "./routes/my-role.tsx";
 import * as $registration from "./routes/registration.tsx";
-
+import * as $RegistrationForm from "./islands/RegistrationForm.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -22,7 +22,9 @@ const manifest = {
     "./routes/my-role.tsx": $my_role,
     "./routes/registration.tsx": $registration,
   },
-  islands: {},
+  islands: {
+    "./islands/RegistrationForm.tsx": $RegistrationForm,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
