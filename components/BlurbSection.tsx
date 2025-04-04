@@ -8,14 +8,15 @@ export default function BlurbSection() {
       <div class="mx-auto max-w-2xl lg:max-w-4xl">
         <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
           <h1 class="text-3xl mb-4 text-gray-600 font-extrabold">
-            Why we don't call it "Mountain Man"
+            Why is it not "Mountain Man" anymore?
           </h1>
           <p>
-            This section is going to be quite meaningful. It will explain why we
-            call it "Mountain Of The Lord" and not "Mountain Man". After reading
-            this, everyone will be excited about the Rendezvous and will tell
-            their neighbors about it. It will convey a tone of reverence, and
-            draw a tear from the reader.
+            Why the change? It's still the same atmosphere and activities you
+            know and love, there's just an additional focus on bringing the
+            young men closer to Christ. The mountain of the Lord has always been
+            a symbol of the temple, and there is an additional spiritual
+            component to all of the activities in an effort to point us toward
+            the temple.
           </p>
         </blockquote>
       </div>
