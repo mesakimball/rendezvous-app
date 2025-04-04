@@ -8,11 +8,7 @@ export default function BlurbSection() {
       <div class="mx-auto max-w-2xl lg:max-w-4xl">
         <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
           <h1 class="text-3xl mb-4 text-gray-600 font-extrabold">
-<<<<<<< HEAD
             Why is it not "Mountain Man" anymore?
-=======
-            Why we don't call it "Mountain Man"
->>>>>>> master
           </h1>
           <p>
             Why the change? It's still the same atmosphere and activities you
