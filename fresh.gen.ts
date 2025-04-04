@@ -8,7 +8,6 @@ import * as $api_registration from "./routes/api/registration.tsx";
 import * as $faq from "./routes/faq.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $my_role from "./routes/my-role.tsx";
-import * as $registrati0n from "./routes/registrati0n.tsx";
 import * as $registration from "./routes/registration.tsx";
 import * as $RegistrationForm from "./islands/RegistrationForm.tsx";
 import type { Manifest } from "$fresh/server.ts";
@@ -21,7 +20,6 @@ const manifest = {
     "./routes/faq.tsx": $faq,
     "./routes/index.tsx": $index,
     "./routes/my-role.tsx": $my_role,
-    "./routes/registrati0n.tsx": $registrati0n,
     "./routes/registration.tsx": $registration,
   },
   islands: {

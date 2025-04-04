@@ -11,12 +11,11 @@ export default function BlurbSection() {
             Why is it not "Mountain Man" anymore?
           </h1>
           <p>
-            Why the change? It's still the same atmosphere and activities you
-            know and love, there's just an additional focus on bringing the
-            young men closer to Christ. The mountain of the Lord has always been
-            a symbol of the temple, and there is an additional spiritual
-            component to all of the activities in an effort to point us toward
-            the temple.
+            Why the change? It's still the same atmosphere you know and love,
+            there's just an additional focus on bringing everyone closer to
+            Christ. "The mountain of the Lord" has always been a reference to
+            the temple, and there are additional spiritual components to each of
+            the activities in an effort to connect the young men with heaven.
           </p>
         </blockquote>
       </div>

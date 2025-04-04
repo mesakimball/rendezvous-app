@@ -69,13 +69,13 @@ export default function EventsSection() {
                 October 8
               </p>
               <h3 class="text-lg font-semibold text-white">
-                Priest's Rendezvous Start
+                Priest's Rendezvous Prep Day
               </h3>
             </div>
 
             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
               <p class="w-32 text-lg font-normal sm:text-right text-gray-300 shrink-0">
-                October 9
+                October 9 - 11
               </p>
               <h3 class="text-lg font-semibold text-white">
                 Mountain Of The Lord Rendezvous

@@ -51,3 +51,8 @@
 
 - [ ] Get UI from Tailwind lib
 - [ ] Add logo and whatever links we have
+
+## FixMe's
+
+- [ ] Make map satellite view
+- [ ] Add price breakdown UI
