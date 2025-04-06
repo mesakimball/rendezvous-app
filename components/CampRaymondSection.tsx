@@ -5,18 +5,20 @@ export default function CampRaymondSection() {
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="max-w-screen-lg text-gray-500 sm:text-lg">
             <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900">
-              Held at historic Camp Raymond in northern Arizona
+              Location
             </h2>
             <p class="mb-4 font-light">
-              This section will have a brief description of Camp Raymond,
-              catering to those who have never been and don't know what to
-              expect. They will be both impressed and intimidated.
+              Nestled in the pines of Northern Arizona, Camp Raymond provides
+              the perfect setting for Mountain of the Lord Rendezvous. With
+              expansive open spaces, it accommodates all our activities while
+              giving each ward plenty of room for camping and gathering. If you
+              have questions about the facilities, feel free to reach out.
             </p>
             <a
               href="#"
-              class="inline-flex items-center font-medium text-sky-400 hover:text-green-700"
+              class="inline-flex items-center font-medium text-sky-400 hover:text-sky-500"
             >
-              Learn more
+              Contact Us
               <svg
                 class="ml-1 w-6 h-6"
                 fill="currentColor"
