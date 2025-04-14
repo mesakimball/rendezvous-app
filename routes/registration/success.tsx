@@ -2,8 +2,8 @@ import FooterSection from "../../components/FooterSection.tsx";
 
 export default function RegisterSuccessPage() {
   return (
-    <>
-      <section class="bg-stone-800">
+    <div class="h-full flex flex-col">
+      <section class="bg-stone-800 h-full flex flex-col justify-center">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-sky-400">
             Thank you for registering!
@@ -15,6 +15,6 @@ export default function RegisterSuccessPage() {
         </div>
       </section>
       <FooterSection />
-    </>
+    </div>
   );
 }
