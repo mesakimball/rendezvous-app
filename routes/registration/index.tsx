@@ -1,5 +1,5 @@
-import FooterSection from "../components/FooterSection.tsx";
-import RegistrationForm from "../islands/RegistrationForm.tsx";
+import FooterSection from "../../components/FooterSection.tsx";
+import RegistrationForm from "../../islands/RegistrationForm.tsx";
 
 export default function RegisterPage() {
   return (

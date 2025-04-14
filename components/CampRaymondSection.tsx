@@ -39,7 +39,7 @@ export default function CampRaymondSection() {
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5429.359751968109!2d-111.97426528719195!3d35.138813972653544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d7bec6b46f36d%3A0xc14783e1906c8495!2sCamp%20Raymond!5e1!3m2!1sen!2sus!4v1743741365227!5m2!1sen!2sus"
         width="100%"
-        height="80%"
+        height="50%"
         style="border:0;"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
