@@ -11,12 +11,12 @@ export default function BlurbSection() {
             Why is it not "Mountain Man" anymore?
           </h1>
           <p>
-            Why the change? It's still the same atmosphere and activities you
-            know and love, there's just an additional focus on bringing the
-            young men closer to Christ. The mountain of the Lord has always been
-            a symbol of the temple, and there is an additional spiritual
-            component to all of the activities in an effort to point us toward
-            the temple.
+            The event still has the same great atmosphere you know and love-
+            just with an added focus on coming closer to Jesus Christ. “Mountain
+            of the Lord” draws inspiration from the temple, a place of
+            revelation and divine connection. Each activity now includes
+            meaningful spiritual elements, helping young men strengthen their
+            faith and seek God’s guidance.
           </p>
         </blockquote>
       </div>

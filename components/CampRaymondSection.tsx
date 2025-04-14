@@ -5,18 +5,20 @@ export default function CampRaymondSection() {
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="max-w-screen-lg text-gray-500 sm:text-lg">
             <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900">
-              Held at historic Camp Raymond in northern Arizona
+              Location
             </h2>
             <p class="mb-4 font-light">
-              This section will have a brief description of Camp Raymond,
-              catering to those who have never been and don't know what to
-              expect. They will be both impressed and intimidated.
+              Nestled in the pines of Northern Arizona, Camp Raymond provides
+              the perfect setting for Mountain of the Lord Rendezvous. With
+              expansive open spaces, it accommodates all our activities while
+              giving each ward plenty of room for camping and gathering. If you
+              have questions about the facilities, feel free to reach out.
             </p>
             <a
               href="#"
-              class="inline-flex items-center font-medium text-sky-400 hover:text-green-700"
+              class="inline-flex items-center font-medium text-sky-400 hover:text-sky-500"
             >
-              Learn more
+              Contact Us
               <svg
                 class="ml-1 w-6 h-6"
                 fill="currentColor"
@@ -35,9 +37,9 @@ export default function CampRaymondSection() {
         </div>
       </section>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2267.4633183978963!2d-111.97494348636529!3d35.138437717023386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d7bec6b46f36d%3A0xc14783e1906c8495!2sCamp%20Raymond!5e0!3m2!1sen!2sus!4v1743566876187!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5429.359751968109!2d-111.97426528719195!3d35.138813972653544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d7bec6b46f36d%3A0xc14783e1906c8495!2sCamp%20Raymond!5e1!3m2!1sen!2sus!4v1743741365227!5m2!1sen!2sus"
         width="100%"
-        height="80%"
+        height="50%"
         style="border:0;"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"

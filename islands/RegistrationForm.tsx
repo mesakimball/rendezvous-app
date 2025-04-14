@@ -1,12 +1,12 @@
 import { useSignal } from "@preact/signals";
 
-type RegistrationType = "teachers" | "priests" | "ward" | "stake";
+type RegistrationType = "teachers" | "priests" | "ward" | "leaders";
 
 export default function RegistrationForm() {
   const registrationType = useSignal("teachers");
 
   return (
-    <form action="#">
+    <form method="post" action="/api/registration">
       {/* Start registration type */}
       <h3 class="mb-2 text-lg font-medium text-gray-900">
         Who are you registering for Rendezvous?
@@ -125,7 +125,7 @@ export default function RegistrationForm() {
             </svg>
           </label>
         </li>
-        <li onClick={() => registrationType.value = "stake"}>
+        <li onClick={() => registrationType.value = "leaders"}>
           <input
             type="radio"
             id="stake"
@@ -166,75 +166,75 @@ export default function RegistrationForm() {
       <div class="grid gap-4 my-4 sm:grid-cols-2 sm:gap-6 sm:my-6">
         <div class="w-full">
           <label
-            for="name"
+            for="wardName"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Your Ward
           </label>
           <input
             type="text"
-            name="name"
-            id="name"
+            name="wardName"
+            id="wardName"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
         </div>
         <div class="w-full">
           <label
-            for="name"
+            for="stakeName"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Your Stake
           </label>
           <input
             type="text"
-            name="name"
-            id="name"
+            name="stakeName"
+            id="stakeName"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
         </div>
         <div class="sm:col-span-2">
           <label
-            for="name"
+            for="contactName"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Your name
           </label>
           <input
             type="text"
-            name="name"
-            id="name"
+            name="contactName"
+            id="contactName"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
         </div>
         <div class="w-full">
           <label
-            for="brand"
+            for="contactPhone"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Your phone number
           </label>
           <input
             type="text"
-            name="brand"
-            id="brand"
+            name="contactPhone"
+            id="contactPhone"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
         </div>
         <div class="w-full">
           <label
-            for="price"
+            for="contactEmail"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Your email
           </label>
           <input
-            type="number"
-            name="price"
-            id="price"
+            type="text"
+            name="contactEmail"
+            id="contactEmail"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
@@ -242,45 +242,45 @@ export default function RegistrationForm() {
         {/* Start ward clerk block */}
         <div class="sm:col-span-2">
           <label
-            for="name"
+            for="clerkName"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Ward clerk name
           </label>
           <input
             type="text"
-            name="name"
-            id="name"
+            name="clerkName"
+            id="clerkName"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
         </div>
         <div class="w-full">
           <label
-            for="brand"
+            for="clerkPhone"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Ward clerk phone number
           </label>
           <input
             type="text"
-            name="brand"
-            id="brand"
+            name="clerkPhone"
+            id="clerkPhone"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
         </div>
         <div class="w-full">
           <label
-            for="price"
+            for="clerkEmail"
             class="block mb-2 text-lg font-medium text-gray-900"
           >
             Ward clerk email
           </label>
           <input
-            type="number"
-            name="price"
-            id="price"
+            type="text"
+            name="clerkEmail"
+            id="clerkEmail"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
             required
           />
@@ -291,15 +291,15 @@ export default function RegistrationForm() {
           registrationType.value === "ward") && (
           <div class="w-full">
             <label
-              for="brand"
+              for="teachersCount"
               class="block mb-2 text-lg font-medium text-gray-900"
             >
               How Many Teachers?
             </label>
             <input
               type="number"
-              name="brand"
-              id="brand"
+              name="teachersCount"
+              id="teachersCount"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
               required
             />
@@ -309,15 +309,15 @@ export default function RegistrationForm() {
           registrationType.value === "ward") && (
           <div class="w-full">
             <label
-              for="brand"
+              for="priestsCount"
               class="block mb-2 text-lg font-medium text-gray-900"
             >
               How Many Priests?
             </label>
             <input
               type="number"
-              name="brand"
-              id="brand"
+              name="priestsCount"
+              id="priestsCount"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
               required
             />
@@ -326,15 +326,15 @@ export default function RegistrationForm() {
         {
           <div class="w-full">
             <label
-              for="brand"
+              for="leadersCount"
               class="block mb-2 text-lg font-medium text-gray-900"
             >
               How Many Adult Leaders?
             </label>
             <input
               type="number"
-              name="brand"
-              id="brand"
+              name="leadersCount"
+              id="leadersCount"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full p-2.5"
               required
             />
@@ -343,13 +343,14 @@ export default function RegistrationForm() {
         {/* End count block */}
         <div class="sm:col-span-2">
           <label
-            for="description"
+            for="specialAccomodations"
             class="block mb-2 text-lg font-medium text-gray-900 "
           >
             Any Special Accommodations?
           </label>
           <textarea
-            id="description"
+            id="specialAccomodations"
+            name="specialAccomodations"
             rows={8}
             class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-sky-500 focus:border-sky-500"
           >

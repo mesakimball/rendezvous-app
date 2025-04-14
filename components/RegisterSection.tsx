@@ -4,14 +4,15 @@ export default function RegisterSection() {
       <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
         <div class="max-w-screen-md">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
-            Let's get you registered.
+            Registration
           </h2>
           <p class="mb-8 font-light sm:text-xl text-gray-300">
-            This is a little blurb that will explain a bit of detail about
-            registration. About how you can register just your teachers, just
-            your priests, or all your ward's young men and adult leaders. There
-            will also be a separate way to register adult leaders going with the
-            stake. It will be short and punchy- you won't want to pass this up.
+            Ready to join us for Mountain of the Lord Rendezvous? Begin by
+            completing your registration—this secures your spot and lets us
+            start the process. After you register, we’ll coordinate with your
+            ward clerk to finalize payment. Once that’s complete, you’ll receive
+            your registration packet with everything needed to prepare for this
+            meaningful event. We’re looking forward to having you there!
           </p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <a
@@ -41,7 +42,7 @@ export default function RegisterSection() {
                 <circle cx="17" cy="17" r="3" />
                 <path d="m21 21-1.9-1.9" />
               </svg>
-              What's my role?
+              Who registers?
             </a>
           </div>
         </div>
