@@ -12,12 +12,14 @@ export default function RegisterSuccessPage() {
             We’ll process all registrations and notify your ward clerk with
             further instructions once totals are finalized.
           </p>
-          <a
-            href="/"
-            class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-sky-400 rounded-lg hover:bg-sky-500 focus:ring-4 focus:ring-sky-600"
-          >
-            Back to Homepage
-          </a>
+          <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 sm:justify-center">
+            <a
+              href="/"
+              class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-sky-400 rounded-lg hover:bg-sky-500 focus:ring-4 focus:ring-sky-600"
+            >
+              Back to Homepage
+            </a>
+          </div>
         </div>
       </section>
       <FooterSection />

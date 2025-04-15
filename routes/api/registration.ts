@@ -25,22 +25,15 @@ export const handler: Handlers = {
         specialAccomodations: form.get("specialAccomodations")?.toString(),
       };
       await createRegistration(registrationData);
-      console.log("REGISTRATION_CREATED");
-      const headers = new Headers(req.headers);
-      headers.set("location", "/registration/success");
-      return new Response(null, { status: 302, headers });
+      return new Response("", {
+        status: 302,
+        headers: { Location: "/registration/success" },
+      });
     } catch (err) {
-      console.error(err);
-      return new Response(
-        JSON.stringify({
-          message: "There was an error registering for rendezvous",
-          error: err,
-        }),
-        {
-          status: 401,
-          headers: { "Content-Type": "application/json" },
-        },
-      );
+      return new Response("", {
+        status: 302,
+        headers: { Location: `/registration/error?error=${err}` },
+      });
     }
   },
 };
