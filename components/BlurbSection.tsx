@@ -12,8 +12,8 @@ export default function BlurbSection() {
           </h1>
           <p>
             The event still has the same great atmosphere you know and love-
-            just with an added focus on coming closer to Jesus Christ. “Mountain
-            of the Lord” draws inspiration from the temple, a place of
+            just with an added focus on coming closer to Jesus Christ. The title
+            “Mountain of the Lord” draws inspiration from the temple, a place of
             revelation and divine connection. Each activity now includes
             meaningful spiritual elements, helping young men strengthen their
             faith and seek God’s guidance.
