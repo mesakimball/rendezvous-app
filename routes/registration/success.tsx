@@ -16,7 +16,7 @@ export default function RegisterSuccessPage() {
             href="/"
             class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-sky-400 rounded-lg hover:bg-sky-500 focus:ring-4 focus:ring-sky-600"
           >
-            Back To Home
+            Back to Homepage
           </a>
         </div>
       </section>
