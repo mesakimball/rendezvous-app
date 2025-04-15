@@ -12,7 +12,7 @@ export default function RegisterSection() {
             start the process. After you register, we’ll coordinate with your
             ward clerk to finalize payment. Once that’s complete, you’ll receive
             your registration packet with everything needed to prepare for this
-            meaningful event. We’re looking forward to having you there!
+            meaningful event. We’re looking forward to seeing you there!
           </p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <a
