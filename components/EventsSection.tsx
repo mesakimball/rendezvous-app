@@ -30,24 +30,6 @@ export default function EventsSection() {
 
             <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
               <p class="w-32 text-lg font-normal sm:text-right text-gray-300 shrink-0">
-                June 5
-              </p>
-              <h3 class="text-lg font-semibold text-white">
-                Monthly Rendezvous Meetup
-              </h3>
-            </div>
-
-            <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-              <p class="w-32 text-lg font-normal sm:text-right text-gray-300 shrink-0">
-                July 3
-              </p>
-              <h3 class="text-lg font-semibold text-white">
-                Monthly Rendezvous Meetup
-              </h3>
-            </div>
-
-            <div class="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-              <p class="w-32 text-lg font-normal sm:text-right text-gray-300 shrink-0">
                 August 7
               </p>
               <h3 class="text-lg font-semibold text-white">
